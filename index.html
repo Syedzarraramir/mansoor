@@ -5,79 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mansoor</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+        }
+        figure {
+            text-align: center;
+        }
         table {
-            border-collapse: collapse;
             width: 100%;
-            border: 1px solid #000; /* Border color */
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
         th, td {
-            border: 1px solid #000; /* Border color */
-            padding: 8px;
+            border: 1px solid #ddd;
+            padding: 10px;
             text-align: left;
         }
         th {
-            background-color: #f2f2f2; /* Header background color */
+            background-color: #f2f2f2;
+        }
+        ol, ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    
-    <h1>Mansoor Website</h1>
+
+<header>
+    <h1>Mansoor Khan</h1>
+</header>
+
+<div class="container">
     <figure>
-        <img src="./Pic/mansoor.jpg" title="Mansoor" alt=" Mansoor Khan" width="100">
-        <figcaption>Mansoor Khan </figcaption>
+        <img src="./Pic/mansoor.jpg" alt="Mansoor Khan" width="100">
+        <figcaption>Mansoor Khan</figcaption>
     </figure>
-  <h1>Mansoor Khan</h1>
-    <h4>My Education</h4>
+
+    <h2>My Education</h2>
     <ol>
-        <li>Matric</li><a href="https://fazaia.edu.pk/fickck/home" target="_blank">My Matric School Link</a>
-        <li>FSC</li><a href="https://fazaia.edu.pk/ficbadaber/home">My FSC School Link</a>
-        <li>DIT</li><a href="https://kpbte.edu.pk/">My DIT Institute Link</a>
-
-        <h3>Education in Table</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Level</th>
-                    <th>          School&College</th>
-                    <th>          Obt Marks/Total Marks</th>
-                    <th>          Year</th>
-                    <th>          Mansoor Age</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>SSC(Matric)</td>
-                    <td>Fazaia Inter College Korangi</td>
-                    <td>800/1100</td>
-                    <td>2021</td>
-                    <td>18 Years</td>
-                                        </tr>
-                <tr>
-                    <td>HSSC(Inter)</td>
-                    <td>Fazaia Inter College Paf Camp Badaber</td>
-                    <td>525/1100</td>
-                    <td>2023</td>
-                    <td>20 Years</td>
-                </tr>
-                <tr>
-                    <td>DIT(DIPLOMA INFORMATION TECHNOLOGY)</td>
-                    <td>Technical College</td>
-                    <td>1400/1400</td>
-                    <td>2025</td>
-                    <td>20 Years</td>
-
-                </tr>
-
-            </tbody>
-        </table>
-
+        <li>Matric - <a href="https://fazaia.edu.pk/fickck/home" target="_blank" class="button">School Link</a></li>
+        <li>FSC - <a href="https://fazaia.edu.pk/ficbadaber/home" class="button">College Link</a></li>
+        <li>DIT - <a href="https://kpbte.edu.pk/" class="button">Institute Link</a></li>
     </ol>
-    <ul>
-        <li>AGE: 21</li>
-        
-    </ul> <br> <br>
 
+    <h3>Education Summary</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>School/College</th>
+                <th>Obtained Marks/Total Marks</th>
+                <th>Year</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SSC (Matric)</td>
+                <td>Fazaia Inter College Korangi</td>
+                <td>800/1100</td>
+                <td>2021</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>HSSC (Inter)</td>
+                <td>Fazaia Inter College Paf Camp Badaber</td>
+                <td>525/1100</td>
+                <td>2023</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>DIT (Diploma in Information Technology)</td>
+                <td>Technical College</td>
+                <td>1400/1400</td>
+                <td>2025</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>About Me</h2>
+    <ul>
+        <li>Age: 21</li>
+    </ul>
+</div>
 
 </body>
 </html>
